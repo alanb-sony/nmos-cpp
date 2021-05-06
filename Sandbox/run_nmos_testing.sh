@@ -44,7 +44,7 @@ if [[ "${config_secure}" == "True" ]]; then
   common_params=",\"client_secure\":true,\
   \"server_secure\":true,\
   \"ca_certificate_file\":\"test_data/BCP00301/ca/certs/ca.cert.pem\",\
-  \"server_certificate_chains\":\
+  \"server_certificates\":\
   [{\
     \"key_algorithm\":\"ECDSA\",\
     \"private_key_file\":\"test_data/BCP00301/ca/intermediate/private/ecdsa.api.testsuite.nmos.tv.key.pem\",\
