@@ -286,6 +286,8 @@ jobs:
         |
         set -x
         root_dir=`pwd`
+        which bash
+        echo "PATH: $PATH"
     
         # Install AMWA NMOS Testing Tool
         git clone https://github.com/AMWA-TV/nmos-testing.git
@@ -654,7 +656,9 @@ jobs:
         |
         set -x
         root_dir=`pwd`
-    
+        which bash
+        echo "PATH: $PATH"
+
         # Install AMWA NMOS Testing Tool
         git clone https://github.com/AMWA-TV/nmos-testing.git
         cd nmos-testing
